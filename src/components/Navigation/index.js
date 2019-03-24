@@ -1,5 +1,9 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Link } from 'react-router-dom';
+import * as ROUTES from '../../constants/routes'; 
+
+
 
 import dab from '../../assets/images/dab-panda.png';
 
@@ -32,16 +36,16 @@ export default class Example extends React.Component {
           <Collapse isOpen={!this.state.collapsed} className="collapse" navbar>
             <Nav navbar >
               <NavItem >
-                <NavLink href="/" className="hvr-bounce-in">Home</NavLink>
+              <Link to={ROUTES.HOME} className="navlink hvr-bounce-in">Home</Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/about/" className="hvr-bounce-in">About</NavLink>
+               <Link to={ROUTES.ABOUT} className="navlink hvr-bounce-in">About</Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/projects/" className="hvr-bounce-in">Projects</NavLink>
+               <Link to={ROUTES.PROJECTS} className="navlink hvr-bounce-in">Projects</Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact/" className="hvr-bounce-in">Contact</NavLink>
+               <Link to={ROUTES.CONTACT} className="navlink hvr-bounce-in">Contact</Link>            
               </NavItem>
 
             </Nav>
