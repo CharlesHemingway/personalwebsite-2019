@@ -1,0 +1,115 @@
+.layout{
+  background:transparent;
+  height: 90%; 
+  margin: 20px;
+  padding: 4px;
+}
+
+.container { 
+  background:transparent;
+  text-align: center;  
+  box-sizing: border-box;
+}
+
+.inner-layout{
+  background: white;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5%;
+}
+
+.image{
+  height: 300px;
+  margin-top: 1%;
+  position: relative;
+  padding: 0px;
+  background: white;
+  border: 1px solid #999;
+  border-style: inset; 
+  border-radius: 50%;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+ 
+}
+
+.image-2{
+  background-color: transparent;
+  height: 40px;
+  position: relative;
+  padding: 0px;
+}
+
+.image-3{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  padding: 0px;}
+
+
+.navbar {
+  background-color: rgb(191, 191, 191);
+  margin-top: -4%;
+  margin-bottom: 4%;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.navlink {
+  color: rgb(228, 241, 254);
+}
+
+.button {
+  background-color: rgb(191, 191, 191);
+  color: black;
+  padding: 1%;
+  outline: hidden;
+  border:hidden;
+}
+
+.button:hover {
+  background-color: rgb(149, 165, 166);
+}
+.brand {
+  font-family:source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-size: 19px;
+  font-weight: 200;
+
+}
+
+.cardtitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.collapse {
+  outline-color: red;
+}
+
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.hvr-bounce-in:hover,
+.hvr-bounce-in:focus,
+.hvr-bounce-in:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+@media only screen and (max-width: 600px) {
+  .image {
+    height: 200px;}
+}
