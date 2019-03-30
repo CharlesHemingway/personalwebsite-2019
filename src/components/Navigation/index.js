@@ -50,7 +50,6 @@ export default class Example extends React.Component {
 
             </Nav>
           </Collapse>
-          <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#ff3374', 'X8X3SF64');kofiwidget2.draw();</script>
         </Navbar>
       </div>
     );

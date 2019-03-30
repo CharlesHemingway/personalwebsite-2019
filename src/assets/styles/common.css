@@ -1,21 +1,21 @@
 .layout{
   background:transparent;
-  height: 90%; 
-  margin: 20px;
-  padding: 4px;
+  height: 100vh; 
+  margin: 0px;
+  padding: 0px;
 }
 
 .container { 
-  background:transparent;
+  background: transparent;
   text-align: center;  
   box-sizing: border-box;
 }
 
 .inner-layout{
-  background: white;
+  background: transparent;
   text-align: center;
   box-sizing: border-box;
-  padding: 5%;
+  padding: 0%;
 }
 
 .image{
@@ -46,12 +46,13 @@
 
 
 .navbar {
-  background-color: rgb(191, 191, 191);
-  margin-top: -4%;
-  margin-bottom: 4%;
-  -webkit-box-shadow: 0 8px 6px -6px #999;
+  background-color: transparent;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+/*  -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;*/
 }
 
 .navlink {
@@ -59,16 +60,15 @@
 }
 
 .button {
-  background-color: rgb(191, 191, 191);
-  color: black;
-  padding: 1%;
+  background-color: transparent;
   outline: hidden;
   border:hidden;
 }
 
 .button:hover {
-  background-color: rgb(149, 165, 166);
+  background-color: transparent;
 }
+
 .brand {
   font-family:source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -84,7 +84,7 @@
 
 .navlink {
   text-decoration: none !important; 
-  color: white !important;
+  color: black !important;
   padding: 20px 10px 20px 0px;
 }
 
