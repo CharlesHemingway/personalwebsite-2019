@@ -19,10 +19,8 @@ const AboutPage = () => {
         About Me
       </h1>
        <p className="lead"> 
-       My name is Ossiel Romero 
-       and I am a web designer and react developer
-        with more than half a decade of experience with 
-        video editing, graphic design, social media strategy, SEO, react development and Gatsby web design. I can provide clients with custom and modern designs at an affordable rate for clients of all income brackets. I’m able to make own custom designs and templates that end up as pixel-perfect websites or Apps.  </p>
+        I am a freelancer and I have been dividing my time between react development and social communication, I love to travel, eat, research, and instigate conversation. 
+        I am also keen towards video editing, graphic design, social media strategy, SEO, react development and Gatsby web design. I can a firm believer that all information should be free, open source technology, alturistic action and that web design and services should be available to people of all income brackets and social stratas. Depending on my timezone I am almost always available. I don't like to stick around in one country too long so if you want to have a cup of coffee it may or may not be possible depending on the wind. </p>
       <h3>Skills</h3>
       <ListGroup>
 

@@ -21,7 +21,7 @@ const HomePage = (props) => {
        <Navigation/>
           <img src={me} alt="me" className="image hvr-bounce-in" />
           <h1 className="display-4"> Hi, my name is Ossiel</h1>
-          <p className="lead">Freelance Web Designer • React Developer • Tutor • Digital Nomad • Journalist </p>
+          <p className="lead">Freelance Web Designer • React Developer • Tutor • Digital Nomad • Investigator </p>
           <hr className="my-2" />
           <p className="lead">
             <Button className="button hvr-bounce-in" href="https://github.com/ossielromero" color="primary" target="_blank" >
